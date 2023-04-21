@@ -1,2 +1,2 @@
 # TradeTrove
-commit to test hello removal
+NOTE: Replace the MongoDB Atlas Cluster URL with your own generated Cluster URL. 
