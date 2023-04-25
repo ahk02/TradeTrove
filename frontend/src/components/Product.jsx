@@ -5,7 +5,7 @@ import './Header/BasketStyle.css'
 export default function Product(props) {
   const { product, onAdd, user, handleProductSelect } = props;
   return (
-    <div className="lg:w-1/4 md:w-1/2 p-4 w-full border-2 border-white p-4">
+    <div className="lg:w-1/8 md:w-1/4 p-4 w-full border-1 border-white p-2">
 
       <a className="block relative h-48 rounded overflow-hidden">
         <img className="object-cover object-center w-full h-full block" src={product.image} alt={product.title} />
