@@ -7,11 +7,11 @@ export default function Product(props) {
   return (
     <div className="lg:w-1/8 md:w-1/4 p-4 w-full border-1 border-white p-2">
 
-      <a className="block relative h-48 rounded overflow-hidden">
+      <a className="block relative h-10 rounded overflow-hidden">
         <img className="object-cover object-center w-full h-full block" src={product.image} alt={product.title} />
       </a>
       <div className="mt-4">
-        <h3 className="text-white title-font text-lg font-medium">{product.title}</h3>
+        <h3 className="text-white title-font text-lg font-small">{product.title}</h3>
         <p className="mt-1">₹{product.price}</p>
         <div className="flex">
           <button
