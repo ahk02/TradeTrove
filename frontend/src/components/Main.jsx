@@ -54,7 +54,7 @@ export default function Main(props) {
       <br></br>
       <br></br>
       <br></br>
-      <div className="flex flex-wrap gap-8 -m-4" >
+      <div className="grid-cols-5" >
         {products.map((product) => (
           <Product
             item={item}
